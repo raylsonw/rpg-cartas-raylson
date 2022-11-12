@@ -2,7 +2,7 @@
 "name": "ID dos players",
 "short_name": "Crachás",
 "start_url": "./",
-"display": "standalone",
+"display": "fullscreen",
 "description": "Vamo ver quem fica vivo",
 "lang": "Enportugues",
 "dir": "auto",
@@ -26,7 +26,7 @@
 "screenshots": [
     {
         "src": "print.png",
-        "sizes": "1235x775",
+        "sizes": "800x600",
         "type": "image/png",
         "description": "Um gostinho de quero mais aí ó"
     }
@@ -40,9 +40,9 @@
 "prefer_related_applications": "false",
 "shortcuts": [
     {
-        "name":"The name you would like to be displayed for your shortcut",
-        "url":"The url you would like to open when the user chooses this shortcut. This must be a URL local to your PWA. For example: If my start_url is /, this URL must be something like /shortcut",
-        "description":"A description of the functionality of this shortcut"
+        "name":"Osh queisso",
+        "url":"/offline.html",
+        "description":"Tem issaqui nao"
     }
 ]
 }
