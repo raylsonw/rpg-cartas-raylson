@@ -25,10 +25,10 @@
 ],
 "screenshots": [
     {
-        "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
-        "sizes": "2880x1800",
+        "src": "print.png",
+        "sizes": "1235x775",
         "type": "image/png",
-        "description": "A screenshot of the home page"
+        "description": "Um gostinho de quero mais aí ó"
     }
 ],
 "related_applications": [
