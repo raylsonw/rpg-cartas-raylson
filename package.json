@@ -11,7 +11,8 @@
     "react-dom": "16.8.6",
     "react-scripts": "3.0.0",
     "react-spring": "9.0.0-beta.3",
-    "react-use-gesture": "5.0.0"
+    "react-use-gesture": "5.0.0",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {},
   "scripts": {
