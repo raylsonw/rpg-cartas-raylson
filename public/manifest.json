@@ -2,7 +2,7 @@
 "name": "ID dos players",
 "short_name": "Crachás",
 "start_url": "./",
-"display": "fullscreen",
+"display": "standalone",
 "description": "Vamo ver quem fica vivo",
 "lang": "Enportugues",
 "dir": "auto",
@@ -20,7 +20,7 @@
         "src": "./assets/icons/medio.png",
         "sizes": "192x192",
         "type": "image/png",
-        "purpose": "any"
+        "purpose": "maskable"
     }
 ],
 "screenshots": [
