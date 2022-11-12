@@ -1,8 +1,14 @@
 import { render } from 'react-dom'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useSprings, animated, interpolate } from 'react-spring'
 import { useGesture } from 'react-use-gesture'
 import './styles.css'
+
+function Example() {
+    useEffect(() => {
+      document.title = 'ID dos personagens';
+     });
+  }
 
 const cards = [
   './assets/isaque.png',

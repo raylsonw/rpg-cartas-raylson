@@ -1,0 +1,37 @@
+
+  body {
+    width: 100%;
+    min-height: 100vh;
+    display: relative;
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(-45deg, #1A1A1A 0, #215F20 25%, #42B840 50%, #90EE90 75%);
+  }
+  .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    justify-content: center;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  h1 {
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 5px;
+    line-height: 1rem;
+    text-shadow: 0 0 3px white;
+  }
+  h4 {
+    color: #f1f1f1;
+    font-family: arial;
+    font-weight: 300;
+    font-size: 16px;
+  }
