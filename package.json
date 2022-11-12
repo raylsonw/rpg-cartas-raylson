@@ -6,6 +6,7 @@
   "homepage": "https://rpg-cracha-raylson.vercel.app",
   "main": "src/index.js",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "lodash-es": "4.17.11",
     "react": "16.8.6",
     "react-dom": "16.8.6",
@@ -14,7 +15,6 @@
     "react-use-gesture": "5.0.0",
     "yarn": "^1.22.19"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
