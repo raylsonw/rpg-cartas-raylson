@@ -1,23 +1,29 @@
 import { render } from 'react-dom'
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { useSprings, animated, interpolate } from 'react-spring'
 import { useGesture } from 'react-use-gesture'
 import './styles.css'
 
-function Example() {
-    useEffect(() => {
-      document.title = 'ID dos personagens';
-     });
-  }
-
 const cards = [
-  './assets/isaque.png',
-  './assets/leonardo.png',
-  './assets/iuri.png',
-  './assets/fernanda.png',
-  './assets/wemilly.png',
-  './assets/raylson.png',
-  './assets/gustavo.png',
+  'https://i.imgur.com/IgiRwME.png',
+  'https://i.imgur.com/02i4kWh.png',
+  'https://i.imgur.com/mQlMq7F.png',
+  'https://i.imgur.com/t4RC7mH.png',
+  'https://i.imgur.com/JWZuiAa.png',
+  'https://i.imgur.com/iFNHhhN.png',
+  'https://i.imgur.com/YHV0HKx.png',
+  'https://i.imgur.com/M5YgaKz.png',
+  'https://i.imgur.com/gsNkcQE.png',
+  'https://i.imgur.com/8biw2n4.png',
+  'https://i.imgur.com/Hy3PniW.png',
+  'https://i.imgur.com/yLcvh4g.png',
+  'https://i.imgur.com/cPJoNwc.png',
+  'https://i.imgur.com/mKjrAYx.png',
+  'https://i.imgur.com/lurUdi7.png',
+  'https://i.imgur.com/ZeStqfR.png',
+  'https://i.imgur.com/aHKiVcc.png',
+  'https://i.imgur.com/C2zUgwA.png',
+  'https://i.imgur.com/qlEj1ka.png',
 ]
 
 // These two are just helpers, they curate spring data, values that are later being interpolated into css

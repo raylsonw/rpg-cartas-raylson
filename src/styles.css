@@ -17,12 +17,15 @@ body {
 }
 
 #root {
-  background: lightgreen;
+  background-image: url("https://c0.wallpaperflare.com/path/700/237/266/forest-glade-fir-tree-forest-floor-0814885cdb9ad0bb06957c3c67333f2b.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
   position: fixed;
   overflow: hidden;
   width: 100%;
   height: 100%;
-  cursor: url('./mao.png') 1 1, auto;
+  cursor: grab;
 }
 
 #root > div {
@@ -36,15 +39,15 @@ body {
 }
 
 #root > div > div {
-  background-color: green;
+  background-color: white;
   background-size: auto 100%;
   background-repeat: no-repeat;
-  background-position: center;
-  width: 350px;
-  max-width: 620px;
-  height: 410px;
-  max-height: 724px;
+  background-position: center center;
+  width: 380px;
+  max-width: 900px;
+  height: 580px;
+  max-height: 900px;
   will-change: transform;
-  border-radius: 5%;
-  box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 12.5px 100px -10px rgba(20, 12, 0, 0.144), 0 10px 10px -10px rgba(8, 4, 0, 0.103);
 }
